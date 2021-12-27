@@ -12,7 +12,7 @@
 
 # Item Type Plug-in Render Procedures must implement the following interface:
 <pre>
-procedure <name of procedure> (
+procedure name_of_procedure (
     p_item   in            apex_plugin.t_item,
     p_plugin in            apex_plugin.t_plugin,
     p_param  in            apex_plugin.t_item_render_param,
@@ -22,5 +22,5 @@ begin
   
   null;
   
-end <name of procedure>;
+end name_of_procedure;
 </pre>
