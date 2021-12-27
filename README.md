@@ -1,13 +1,14 @@
 # Plugin
 
 # Type of Plugin
-Authentication Scheme Type
-Authorization Scheme Type
-Dynamic Action
-Item
-Process
-Region
-
+<pre>
+    Authentication Scheme Type
+    Authorization Scheme Type
+    Dynamic Action
+    Item
+    Process
+    Region
+</pre>
 
 # Item Type Plug-in Render Procedures must implement the following interface:
 
