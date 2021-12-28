@@ -18,6 +18,7 @@ procedure name_of_procedure (
     p_param  in            apex_plugin.t_item_render_param,
     p_result in out nocopy apex_plugin.t_item_render_result )
 is
+  l_html                 varchar2(4000);
 begin
   
   ---------------- Custom Attributes ----------------
@@ -89,3 +90,12 @@ exception when others then raise;
   
 end name_of_procedure;
 </pre>
+
+
+# call runtime js
+
+var CustomDatePicker = {
+  initDatePicker: function(pItemId) {
+    $( '#'+pItemId ).datepicker();
+  }
+};
